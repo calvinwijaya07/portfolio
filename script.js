@@ -47,7 +47,7 @@ backToTopButton.addEventListener('click', () => {
           // Filter portfolio items based on the category
           portfolioItems.forEach(item => {
               if (category === 'all' || item.dataset.category === category) {
-                  item.style.display = 'block';
+                  item.style.display = 'flex';
               } else {
                   item.style.display = 'none';
               }
